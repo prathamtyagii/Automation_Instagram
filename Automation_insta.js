@@ -64,7 +64,7 @@ async function run() {
     await page.keyboard.press("Enter");
 
     await page.waitFor(3000);
-    
+
     //Clicking the home button
 
     await page.waitForSelector('svg._ab6-');
@@ -100,7 +100,7 @@ async function run() {
     await page.keyboard.press("Enter");
 
     await page.waitFor(3000);
-    
+
     //Clicking the home button
 
     await page.waitForSelector('svg._ab6-');
@@ -138,17 +138,16 @@ async function run() {
 
     await page.waitFor(3000);
 
-    await page.waitForSelector('.');
-    await page.type('.',config.message,{delay:200});
-
-    await page.keyboard.press("H");
-    await page.keyboard.press("i");
-    await page.keyboard.press("i");
+    let tbt=config.message;
+    for(let i=0;i<tbt.length;i++) {
+        await page.keyboard.press(tbt.charAt(i));
+    }
 
     await page.keyboard.press("Enter");  
     await page.waitFor(3000); 
     
     //Clicking the home button
+
     await page.waitForSelector('svg._ab6-');
     await page.click('svg._ab6-');
 
@@ -196,7 +195,7 @@ async function run() {
 
     await page.waitFor(3000);
 
-    //Clicking the home button 
+    //Clicking the home button
 
     await page.waitForSelector('svg._ab6-');
     await page.click('svg._ab6-');
@@ -259,6 +258,7 @@ async function run() {
     }
 
     //Clicking the home button
+
     await page.waitForSelector('svg._ab6-');
     await page.click('svg._ab6-');
 
