@@ -1,12 +1,13 @@
 {
-    "username": "automationprojectcoe",
+    "username": "adaprojectcoe1",
     "password": "Abcd@1234",
     "followers": [
+        "adaprojectcoe",
         "prathamtyagii"
     ],
     "toBeFollowed": [
         "instagram",
-        "automationprojectcoe1"
+        "milityagi98"
     ],
     "message": "This is a message that is being typed on its own"
 }
