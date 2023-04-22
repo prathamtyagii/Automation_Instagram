@@ -1,0 +1,27 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "main": "Automation_1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nut-tree/libnut": "^2.1.2",
+    "axios": "^0.24.0",
+    "excel4node": "^1.7.2",
+    "fs": "^0.0.1-security",
+    "jsdom": "^18.0.1",
+    "minimist": "^1.2.8",
+    "node-gyp": "^8.4.0",
+    "node-key-sender": "^1.0.11",
+    "node-window-manager": "^2.2.4",
+    "puppeteer": "^10.4.0",
+    "robotjs": "^0.6.0"
+  },
+  "description": "'",
+  "devDependencies": {
+    "electron-rebuild": "^3.2.3"
+  }
+}
